@@ -3,42 +3,42 @@
       "id": 11,
       "name": "Healthy Meal Plan",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/VC73Ksz/breakfast1.png",
+      "Image": "https://i.ibb.co/VC73Ksz/breakfast1.png",
       "price": "23.99"
     },
     {
       "id": 12,
       "name": "Fried Chicken Bento",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/pfWCw0C/breakfast2.png",
+      "Image": "https://i.ibb.co/pfWCw0C/breakfast2.png",
       "price": "9.99"
     },
     {
       "id": 13,
       "name": "Tarragon-Rubbed-Salmon",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/QnKdQb4/breakfast3.png",
+      "Image": "https://i.ibb.co/QnKdQb4/breakfast3.png",
       "price": "6.99"
     },
     {
       "id": 14,
       "name": "Indian Lunch",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/PwdyYMY/breakfast4.png",
+      "Image": "https://i.ibb.co/PwdyYMY/breakfast4.png",
       "price": "8.99"
     },
     {
       "id": 15,
       "name": "Beef Steak",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/N3mMkLT/breakfast5.png",
+      "Image": "https://i.ibb.co/N3mMkLT/breakfast5.png",
       "price": "15.99"
     },
     {
       "id": 16,
       "name": "Honey-Sony-Glazed Salmon with Peppers",
       "rev": "How we dream about our future",
-      "pairImage": "https://i.ibb.co/Trmsh98/breakfast6.png",
+      "Image": "https://i.ibb.co/Trmsh98/breakfast6.png",
       "price": "7.99"
     }
   ]

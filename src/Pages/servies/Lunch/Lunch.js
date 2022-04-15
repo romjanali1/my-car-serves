@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import LunchServ from '../../Home/LunchServ/LunchServ';
 
 const Lunch = () => {
     const [ lunchData, SetLunchData ] = useState([]);
@@ -9,9 +10,17 @@ const Lunch = () => {
     },[])
     return (
         <div>
-           <h1>Lunch: {lunchData.length}</h1> 
+           <h1>Lunch: {lunchData.length}</h1>
+            <div className='row row-cols-1 row-cols-sm-3 g-2'>
+            {
+              lunchData.map(lunchServ => <LunchServ
+              key={lunchServ.id}
+              lunchServ = {lunchServ}
+              ></LunchServ>)
+            }
+            </div>
         </div>
     );
 };
 
-export default Lunch;<h1>Lunch</h1>
+export default Lunch;

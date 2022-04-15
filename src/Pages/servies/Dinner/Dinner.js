@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import DinnerServ from '../../Home/DinnerServ/DinnerServ';
 
 const Dinner = () => {
     const [ dinnerData, SetdinnerData ] = useState([]);
@@ -10,6 +11,14 @@ const Dinner = () => {
     return (
         <div>
             <h1>Dinner :{dinnerData.length}</h1>
+            <div className='row row-cols-1 row-cols-sm-3 g-2'>
+            {
+              dinnerData.map(dinnerServ => <DinnerServ
+              key={dinnerServ.id}
+              dinnerServ = {dinnerServ}
+              ></DinnerServ>)
+            }
+            </div>
         </div>
     );
 };
