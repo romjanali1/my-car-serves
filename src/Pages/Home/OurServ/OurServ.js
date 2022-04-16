@@ -1,7 +1,7 @@
 import React from 'react';
 
 const OurServ = ({ourServ}) => {
-    const{Image, name, rev, icon, seemMore, detal} = ourServ;
+    const{Image, name, rev, icon, detal} = ourServ;
     return (
         <div className='border-0'>
         <img className='w-75 pb-4' src={Image} alt="" />
@@ -12,7 +12,7 @@ const OurServ = ({ourServ}) => {
         <p className='align-baseline'>{rev}</p>
        <div className='d-flex'>
        <p className='text-primary px-2'>{detal}</p>
-        <img src={seemMore} alt="" />
+        
        </div>
     </div>
     );

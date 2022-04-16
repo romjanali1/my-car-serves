@@ -10,7 +10,6 @@ const Breakfast = () => {
     },[])
     return (
         <div className='m-5'>
-            <h1>Breakfast:{breakfastData.length} </h1>
             <div className='row row-cols-1 row-cols-sm-3 g-2'>
             {
               breakfastData.map(breakfastServ => <BreakfastServ

@@ -19,10 +19,10 @@ const Footer = () => {
             </div>
             <div className='row'>
                 <div className='col-6'><p>Copyright @ 2020 Online Food</p></div>
-                <div className='col-6 d-flex p-2 gx-2'>
-                <p>Privacy Policy</p>
-                <p>Terms of Use</p>
-                <p>Pricing</p>
+                <div className='col-6 d-flex'>
+                <p className='px-5'>Privacy Policy</p>
+                <p className='px-5'>Terms of Use</p>
+                <p className='px-5'>Pricing</p>
                 </div>
             </div>
         </div>

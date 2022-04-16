@@ -10,8 +10,8 @@ const OurServies = () => {
     },[])
     return (
         <div className='m-5'>
-            <h4>Why you Choose Us</h4>
-            <p>There are many types of food service styles  in hotels to serve customers <br /> in the catering industry. This may range from full silver service</p>
+            <h3 className='pb-2'>Why you Choose Us</h3>
+            <p className='pb-2'>There are many types of food service styles  in hotels to serve customers <br /> in the catering industry. This may range from full silver service</p>
             <div className='row row-cols-1 row-cols-sm-3'>
             {
               serviesData.map(ourServ => <OurServ
