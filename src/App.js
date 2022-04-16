@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home';
 import Breakfast from './Pages/servies/Breakfast/Breakfast';
 import Dinner from './Pages/servies/Dinner/Dinner';
 import Lunch from './Pages/servies/Lunch/Lunch';
+import ServiesDetals from './Pages/ServiesDetals/ServiesDetals';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/'element={<Home></Home>}></Route>
+        <Route path='/servies/:serviesId'element={<ServiesDetals></ServiesDetals>}></Route>
         <Route path='/breakfast'element= {<Breakfast></Breakfast>}></Route>
         <Route path='/dinner'element= {<Dinner></Dinner>}></Route>
         <Route path='/lunch'element= {<Lunch></Lunch>}></Route>
