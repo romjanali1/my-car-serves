@@ -6,7 +6,7 @@ const OurServ = ({ourServ}) => {
         <div className='border-0'>
         <img className='w-75 pb-4' src={Image} alt="" />
        <div className='d-flex pb-4'>
-       <img className='px-2' src={icon} alt="" />
+       <img className='px-2 ' src={icon} alt="" />
         <h4>{name}</h4>
        </div>
         <p className='align-baseline'>{rev}</p>
